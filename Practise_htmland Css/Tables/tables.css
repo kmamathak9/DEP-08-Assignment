@@ -1,0 +1,17 @@
+table,th,tr,td{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td, th,tr{
+    width: 150px;
+    padding: 2px;
+    height: 50;
+    text-align: center;
+}
+tr:hover td{
+    background-color: lightgray;
+}
+tr:nth-child(odd) td {
+    background-color: rgb(220, 195, 112);
+}

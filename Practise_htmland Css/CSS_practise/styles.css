@@ -1,0 +1,54 @@
+h2{
+    color: aqua;
+}
+h2 + p{
+    color: aqua;
+}
+/* Attribute selector*/
+[title]{
+    color: chocolate;
+}
+[class ^= "item"]{
+    color: violet;
+}
+[class="item"]{
+    color: darkcyan;
+}
+/* attribute ~="value" -->partially contain */
+[class ~= "item"]{
+    color: darkcyan;
+}
+[class |= "item"]{
+    color: chartreuse;
+}
+[title *="art"]{
+    color: darkslateblue;
+}
+aside{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.padding-element{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+.margin-element{
+    margin: 30px;
+    border: 2px solid black;
+    background-color: lightgreen;
+
+}
+.padding-example {
+    padding: 40px;
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+
+  .margin-example {
+    margin: 50px;
+    border: 1px solid black;
+    background-color: lightgreen;
+  }
+
+
